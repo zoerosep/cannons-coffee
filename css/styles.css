@@ -25,16 +25,22 @@ html {
 body {
   color: black;
   background-color: #063270;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   font-size: 1.125rem;
   line-height: 1.5;
-  max-width: 1200px;
+  font-family: var(--monty);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 2rem;
+   max-width: 1200px;
 }
 
 h1, h2, h3 {
-    var(--weight);
-    var(--height);
+    font-weight: var(--weight);
+    line-height: var(--height);
 }
 
 h1, h2 {
