@@ -35,7 +35,7 @@ header {
 
 .logoside {
     display: flex;
-     flex-flow: row wrap;
+     /* flex-flow: row wrap; */
     justify-content: center;
     gap: 1rem;
     align-items: center;
@@ -48,6 +48,7 @@ nav ul {
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
+  justify-content: center;
 }
 nav a {
   display: block;
@@ -106,7 +107,40 @@ h3 {
   text-transform: uppercase;
   display: inline-block;
 }
+.button2 {
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--vegan);
+  color: var(--white);
+  font-size: 1.1rem;
+  border: 3px solid;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+}
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.featurecard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+.FCgrid {
+  display: grid;
+}
+
+.coffeecomp {
+width: 100%;
+}
 
 @media (min-width: 650px) {
   header {
